@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>color_extracter &#8212; imgPreprocessor 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="color-extracter">
+<span id="color-extracter-section"></span><h1>color_extracter<a class="headerlink" href="#color-extracter" title="Link to this heading">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="guide.color_extracter">
+<span class="sig-prename descclassname"><span class="pre">guide.</span></span><span class="sig-name descname"><span class="pre">color_extracter</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#guide.color_extracter" title="Link to this definition">¶</a></dt>
+<dd><p>Functionality:
+Extracts the dominant color palette from an image and visualizes it.</p>
+<p>Input:</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Path setup: Provide the image file path (image_path).</dt><dd><p>Example: image_path = ‘./path/to/image.jpg’</p>
+</dd>
+<dt>Optional parameters:</dt><dd><p>n_colors: Number of dominant colors to extract (default is 5).</p>
+</dd>
+</dl>
+</div></blockquote>
+<dl class="simple">
+<dt>Output:</dt><dd><dl class="simple">
+<dt>Return value:</dt><dd><p>extract_color_palette: Returns a list of RGB tuples for the extracted colors.
+Example: [(255, 0, 0), (0, 255, 0), (0, 0, 255)]</p>
+</dd>
+</dl>
+</dd>
+<dt>Visualization:</dt><dd><p>plot_palette: Displays the extracted colors as a horizontal bar chart using Matplotlib.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p><strong>Functionality</strong>
+Extracts the dominant color palette from an image and visualizes it.</p>
+<p><strong>Input</strong>
+- <strong>Path setup:</strong> Provide the image file path (<cite>image_path</cite>).</p>
+<blockquote>
+<div><p>Example: <code class="docutils literal notranslate"><span class="pre">image_path</span> <span class="pre">=</span> <span class="pre">'./path/to/image.jpg'</span></code></p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Optional parameters:</strong>
+- <cite>n_colors</cite>: Number of dominant colors to extract (default is 5).</p></li>
+</ul>
+<p><strong>Output</strong>
+- <strong>Return value:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><cite>extract_color_palette</cite>: Returns a list of RGB tuples for the extracted colors.
+Example: <code class="docutils literal notranslate"><span class="pre">[(255,</span> <span class="pre">0,</span> <span class="pre">0),</span> <span class="pre">(0,</span> <span class="pre">255,</span> <span class="pre">0),</span> <span class="pre">(0,</span> <span class="pre">0,</span> <span class="pre">255)]</span></code></p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Visualization:</strong>
+- <cite>plot_palette</cite>: Displays the extracted colors as a horizontal bar chart using Matplotlib.</p></li>
+</ul>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">imgPreprocessor</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CountFace.html">CountFace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="delexif.html">delexif</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, oss.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/cokor_extracter.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

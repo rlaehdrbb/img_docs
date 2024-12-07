@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "imgPreprocessor"
+authors = [
+    {name = "GarlicCook", email = "kms300508@gmail.com"},
+    {name = "ugyo", email = "rss1234567@hanyang.ac.kr"},
+    {name = "jaesung05", email = "1004jaesung@gmail.com"},
+    {name = "rlaehdrbb", email = "donggyug713@gmail.com"},
+    {name = "hong02jp", email = "hong02jp@gmail.com"}
+]
+dynamic = ["version", "description"]
